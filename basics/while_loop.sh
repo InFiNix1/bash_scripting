@@ -2,7 +2,7 @@
 
 number=1
 
-while [ $number -le 10 ]
+while [ $number -lt 10 ]
 do
     echo "$number"
     number=$(( number+1 ))
